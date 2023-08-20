@@ -7,22 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F0F09A062A919D4C00E38C36 /* TickedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F09A052A919D4C00E38C36 /* TickedApp.swift */; };
-		F0F09A082A919D4C00E38C36 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F09A072A919D4C00E38C36 /* ContentView.swift */; };
-		F0F09A0A2A919D4C00E38C36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0F09A092A919D4C00E38C36 /* Assets.xcassets */; };
-		F0F09A0D2A919D4C00E38C36 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0F09A0C2A919D4C00E38C36 /* Preview Assets.xcassets */; };
+		F0EACD682A91C260005E6EF3 /* TickedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0EACD672A91C260005E6EF3 /* TickedApp.swift */; };
+		F0EACD6A2A91C260005E6EF3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0EACD692A91C260005E6EF3 /* ContentView.swift */; };
+		F0EACD6C2A91C261005E6EF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0EACD6B2A91C261005E6EF3 /* Assets.xcassets */; };
+		F0EACD6F2A91C261005E6EF3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0EACD6E2A91C261005E6EF3 /* Preview Assets.xcassets */; };
+		F0EACD712A91C261005E6EF3 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0EACD702A91C261005E6EF3 /* Persistence.swift */; };
+		F0EACD742A91C261005E6EF3 /* Ticked.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F0EACD722A91C261005E6EF3 /* Ticked.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F0F09A022A919D4C00E38C36 /* Ticked.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ticked.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F0F09A052A919D4C00E38C36 /* TickedApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickedApp.swift; sourceTree = "<group>"; };
-		F0F09A072A919D4C00E38C36 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		F0F09A092A919D4C00E38C36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F0F09A0C2A919D4C00E38C36 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F0EACD642A91C260005E6EF3 /* Ticked.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ticked.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0EACD672A91C260005E6EF3 /* TickedApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickedApp.swift; sourceTree = "<group>"; };
+		F0EACD692A91C260005E6EF3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F0EACD6B2A91C261005E6EF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F0EACD6E2A91C261005E6EF3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F0EACD702A91C261005E6EF3 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		F0EACD732A91C261005E6EF3 /* Ticked.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Ticked.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F0F099FF2A919D4C00E38C36 /* Frameworks */ = {
+		F0EACD612A91C260005E6EF3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -32,37 +36,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F0F099F92A919D4C00E38C36 = {
+		F0EACD5B2A91C260005E6EF3 = {
 			isa = PBXGroup;
 			children = (
-				F0F09A042A919D4C00E38C36 /* Ticked */,
-				F0F09A032A919D4C00E38C36 /* Products */,
+				F0EACD662A91C260005E6EF3 /* Ticked */,
+				F0EACD652A91C260005E6EF3 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		F0F09A032A919D4C00E38C36 /* Products */ = {
+		F0EACD652A91C260005E6EF3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F0F09A022A919D4C00E38C36 /* Ticked.app */,
+				F0EACD642A91C260005E6EF3 /* Ticked.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F0F09A042A919D4C00E38C36 /* Ticked */ = {
+		F0EACD662A91C260005E6EF3 /* Ticked */ = {
 			isa = PBXGroup;
 			children = (
-				F0F09A052A919D4C00E38C36 /* TickedApp.swift */,
-				F0F09A072A919D4C00E38C36 /* ContentView.swift */,
-				F0F09A092A919D4C00E38C36 /* Assets.xcassets */,
-				F0F09A0B2A919D4C00E38C36 /* Preview Content */,
+				F0EACD672A91C260005E6EF3 /* TickedApp.swift */,
+				F0EACD692A91C260005E6EF3 /* ContentView.swift */,
+				F0EACD6B2A91C261005E6EF3 /* Assets.xcassets */,
+				F0EACD702A91C261005E6EF3 /* Persistence.swift */,
+				F0EACD722A91C261005E6EF3 /* Ticked.xcdatamodeld */,
+				F0EACD6D2A91C261005E6EF3 /* Preview Content */,
 			);
 			path = Ticked;
 			sourceTree = "<group>";
 		};
-		F0F09A0B2A919D4C00E38C36 /* Preview Content */ = {
+		F0EACD6D2A91C261005E6EF3 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				F0F09A0C2A919D4C00E38C36 /* Preview Assets.xcassets */,
+				F0EACD6E2A91C261005E6EF3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -70,13 +76,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F0F09A012A919D4C00E38C36 /* Ticked */ = {
+		F0EACD632A91C260005E6EF3 /* Ticked */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F0F09A102A919D4C00E38C36 /* Build configuration list for PBXNativeTarget "Ticked" */;
+			buildConfigurationList = F0EACD772A91C261005E6EF3 /* Build configuration list for PBXNativeTarget "Ticked" */;
 			buildPhases = (
-				F0F099FE2A919D4C00E38C36 /* Sources */,
-				F0F099FF2A919D4C00E38C36 /* Frameworks */,
-				F0F09A002A919D4C00E38C36 /* Resources */,
+				F0EACD602A91C260005E6EF3 /* Sources */,
+				F0EACD612A91C260005E6EF3 /* Frameworks */,
+				F0EACD622A91C260005E6EF3 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -84,25 +90,25 @@
 			);
 			name = Ticked;
 			productName = Ticked;
-			productReference = F0F09A022A919D4C00E38C36 /* Ticked.app */;
+			productReference = F0EACD642A91C260005E6EF3 /* Ticked.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F0F099FA2A919D4C00E38C36 /* Project object */ = {
+		F0EACD5C2A91C260005E6EF3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					F0F09A012A919D4C00E38C36 = {
+					F0EACD632A91C260005E6EF3 = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
 				};
 			};
-			buildConfigurationList = F0F099FD2A919D4C00E38C36 /* Build configuration list for PBXProject "Ticked" */;
+			buildConfigurationList = F0EACD5F2A91C260005E6EF3 /* Build configuration list for PBXProject "Ticked" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,42 +116,44 @@
 				en,
 				Base,
 			);
-			mainGroup = F0F099F92A919D4C00E38C36;
-			productRefGroup = F0F09A032A919D4C00E38C36 /* Products */;
+			mainGroup = F0EACD5B2A91C260005E6EF3;
+			productRefGroup = F0EACD652A91C260005E6EF3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F0F09A012A919D4C00E38C36 /* Ticked */,
+				F0EACD632A91C260005E6EF3 /* Ticked */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		F0F09A002A919D4C00E38C36 /* Resources */ = {
+		F0EACD622A91C260005E6EF3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0F09A0D2A919D4C00E38C36 /* Preview Assets.xcassets in Resources */,
-				F0F09A0A2A919D4C00E38C36 /* Assets.xcassets in Resources */,
+				F0EACD6F2A91C261005E6EF3 /* Preview Assets.xcassets in Resources */,
+				F0EACD6C2A91C261005E6EF3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F0F099FE2A919D4C00E38C36 /* Sources */ = {
+		F0EACD602A91C260005E6EF3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0F09A082A919D4C00E38C36 /* ContentView.swift in Sources */,
-				F0F09A062A919D4C00E38C36 /* TickedApp.swift in Sources */,
+				F0EACD712A91C261005E6EF3 /* Persistence.swift in Sources */,
+				F0EACD6A2A91C260005E6EF3 /* ContentView.swift in Sources */,
+				F0EACD682A91C260005E6EF3 /* TickedApp.swift in Sources */,
+				F0EACD742A91C261005E6EF3 /* Ticked.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		F0F09A0E2A919D4C00E38C36 /* Debug */ = {
+		F0EACD752A91C261005E6EF3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -205,7 +213,7 @@
 			};
 			name = Debug;
 		};
-		F0F09A0F2A919D4C00E38C36 /* Release */ = {
+		F0EACD762A91C261005E6EF3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -259,7 +267,7 @@
 			};
 			name = Release;
 		};
-		F0F09A112A919D4C00E38C36 /* Debug */ = {
+		F0EACD782A91C261005E6EF3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -288,7 +296,7 @@
 			};
 			name = Debug;
 		};
-		F0F09A122A919D4C00E38C36 /* Release */ = {
+		F0EACD792A91C261005E6EF3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -320,25 +328,38 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F0F099FD2A919D4C00E38C36 /* Build configuration list for PBXProject "Ticked" */ = {
+		F0EACD5F2A91C260005E6EF3 /* Build configuration list for PBXProject "Ticked" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F0F09A0E2A919D4C00E38C36 /* Debug */,
-				F0F09A0F2A919D4C00E38C36 /* Release */,
+				F0EACD752A91C261005E6EF3 /* Debug */,
+				F0EACD762A91C261005E6EF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F0F09A102A919D4C00E38C36 /* Build configuration list for PBXNativeTarget "Ticked" */ = {
+		F0EACD772A91C261005E6EF3 /* Build configuration list for PBXNativeTarget "Ticked" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F0F09A112A919D4C00E38C36 /* Debug */,
-				F0F09A122A919D4C00E38C36 /* Release */,
+				F0EACD782A91C261005E6EF3 /* Debug */,
+				F0EACD792A91C261005E6EF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F0EACD722A91C261005E6EF3 /* Ticked.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F0EACD732A91C261005E6EF3 /* Ticked.xcdatamodel */,
+			);
+			currentVersion = F0EACD732A91C261005E6EF3 /* Ticked.xcdatamodel */;
+			path = Ticked.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
-	rootObject = F0F099FA2A919D4C00E38C36 /* Project object */;
+	rootObject = F0EACD5C2A91C260005E6EF3 /* Project object */;
 }
